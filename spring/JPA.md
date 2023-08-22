@@ -85,15 +85,22 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
 
 JpaRepository를 상속받을 때는 사용될 Entity 클래스와 ID 값이 들어감. => <bold>JpaRepository<T, ID></bold>
 
-* 단순하게 상속하는 것으로 아래와 같은 기능을 제공
-<tr>
-<th> method </th>
-<th> 기능 </th>
+* 단순하게 상속하는 것으로 아래와 같은 기능을 제공(method)
 
-<td>save() </td>
-<td> 레고드 저장(insert, update)</td>
+  * save()
+    * 레고드 저장(insert, update)
 
-</tr>
+  * findOne()
+    * primary key로 레코드 한건 찾기
+
+  * findAll()
+    * 전체 레코드 불러오기, 정렬(sort), 페이징(pageable) 가능
+
+  * count()
+    * 레코드 갯수
+
+  * delete()
+    * 레코그 삭제
 
 
 
