@@ -7,4 +7,5 @@
 
 
 <h2>Spring</h2>
+
 [jpaRepository 는 어떻게 동작할까?](https://github.com/amazon7737/dev-thinking/blob/main/spring/JPA.md)
