@@ -3,7 +3,9 @@
 
 <h1>1.Entity</h1>
 <hr>
-* 데이터 베이스에 저장하기 위해 유저가 정의한 클래스를 <bold>Entity</bold>
+
+* 데이터 베이스에 저장하기 위해 유저가 정의한 클래스를 <bold>Entity</bold> 라고 한다.
+
 * Domain이라고 생각하면 됨
 
 * 보통 RDBMS에서 Table을 객체화 시킨것.
