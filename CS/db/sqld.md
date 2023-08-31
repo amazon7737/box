@@ -56,5 +56,78 @@ ORDER BY (CASE WHEN ID = 999 THEN 0 ELSE ID END
 ### 56번 문제
 
 ~~~sql
-
+SELECT 지역, 매출금액 FROM 지역별매출 ORDER BY 년 ASC;
 ~~~
+* SELECT 절의 실행순서에 의해서 SELECT 다음 ORDER BY절이 수행되기 때문에 SELECT 절에 기술되지 않는 "년"칼럼으로 정렬하는 것은 논리적으로 틀렸다. 하지만 오라클은 행기반이기에 데이터를 액세스할 때 행 전체 칼럼을 메모리에 로드되서 가능하다.
+
+* 단, 아래와 같은 SQL일 겨웅에는 정렬할 수 없다.
+~~~sql
+SELECT 지역, 매출금액
+FROM (
+    SELECT 지역, 매출금액
+      FROM 지역별매출
+   )
+ORDER BY 년 ASC;
+~~~
+
+* IN-LINE VIEW가 먼저 수행되어서 더 이상 SELECT절 외 칼럼을 사용할 수 없기 때문.
+
+### 57번 문제
+
+* ORDER BY 절에 컬럼명 대신 Alias 명이나 컬럼 순서를 나타내는 정수를 혼용하여 사용할 수 있다.
+
+### ORDER BY 절 특징
+* 기본 정렬순서 : 오름차순
+* 숫자형 => 가장 작은 값부터
+* 날짜형 => 가장 빠른 날부터
+
+* Oracle : NULL 값을 가장 큰값
+
+* SQL Server : NULL 값으 가장 작은 값
+
+### 58번 문제
+
+```sql
+SELECT ID, AMT
+FROM TBL
+ORDER BY (CASE WHEN ID = 'A' THEN 1 ELSE 2 END),
+          AMT DESC
+```
+* CASE절을 이용해서 원래의 정렬 순서를 변경하였다. 그래서 ID가 'A'인 것이 가장 먼저 표시되도록 하였다.
+
+### Select 문장 실행 순서
+* FROM => WHERE => Group by => Having => Select => Order By
+
+### TOP () 예제 사원
+* 테이블에서 급여가 높은 2명을 내림차순으로 출력하는데 같은 급여를 받는 사원이 있으면 같이 출력한다.
+
+```sql
+SELECT TOP(2) WITH TIES ENAME, SAL
+FROM EMP
+ORDER BY SAL DESC;
+```
+
+### EQUI JOIN 문장
+* WHERE 절에 JOIN 조건을 넣는다.
+
+### ANSI/ISO SQL 표준 EQUI JOIN 문장
+* ON 절에 JOIN 조건을 넣는다.
+
+### 62번 문제
+
+```sql
+SELECT 영화.영화명, 배우.배우명, 출연료
+FROM 배우, 영화, 출연
+WHERE 출연료 >= 8888
+AND 출연.영화번호 = 영화.영화번호
+AND 출연.배우번호 = 배우.배우번호;
+```
+* 영화명과 배우명은 출연 테이블이 아니라 영화와 배우 테이블에서 가지고 와야 하는 속성이므로 출연테이블의 영화번호와 영화테이블의 영화번호 및 출연테이블의 배우번호와 배우테이블의 배우번호를 조인하는 SQL문을 작성해야 함.
+
+### 63번 문제 (어렵다..)
+
+
+
+
+
+
