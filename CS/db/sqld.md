@@ -34,3 +34,27 @@
 * Dirty Read => 다른 트랜잭션에 의해 수정되었지만 아직 커밋되지 않은 데이터를 읽는 것을 말한다.
 
 
+# 과목 II
+
+### ORDER BY 문장
+* where
+* group by
+* having
+* order by
+
+* ASC 오름차순
+* DESC 내림차순
+
+### 55번 문제
+
+~~~sql
+ORDER BY (CASE WHEN ID = 999 THEN 0 ELSE ID END
+
+~~~
+* order by 절 case문에 의해 999는 0으로 치환되고 그외는 ID 값으로 정렬된다.
+
+### 56번 문제
+
+~~~sql
+
+~~~
