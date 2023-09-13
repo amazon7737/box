@@ -1,12 +1,16 @@
 # ERD1 과 ERD2의 차이점
 
 > 최소 카디널리티는 필수냐 선택이냐에 따라서 갈린다
+> ERD1은 일반적인 절차를 따른 모델 , ERD2는 논리적 모델링까지 한번에 진행한 Crow-Foot 모델.
 
-![[Pasted image 20230913151541.png]]
+![image](https://github.com/amazon7737/dev-container/assets/76634341/7103d7d4-3530-46b3-bf3c-d31f7d0c599a)
+
 
 동그라미는 선택 참여로 최대 카디널리티를 나타낸다. 1이라는 뜻을 지닌다
 
 또는
+
+![image](https://github.com/amazon7737/dev-container/assets/76634341/094b55c6-0b4b-461e-b97a-24306c33f3e1)
 
 저희 부서에는 반드시 사원이 있어야 된다. 필수적 참여로 해달라는 경우도 있다
 
