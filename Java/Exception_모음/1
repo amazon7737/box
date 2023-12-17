@@ -1,0 +1,19 @@
+# LazyInitializationException
+> findById , getById 를 사용하다가 발생한 에러입니다. 해당 로그에서는 user 테이블외의 joinColumn 을 이룬 follow 테이블을 찾아가서 null 값으로 인해 발생하였다고 작성되어있었습니다.
+
+Hibernate에서 lazy loading을 사용하다 보면 한번 쯤 직면하는 문제.
+(연관관계 매핑에서도 같은 오류가 발생하였음)
+
+getById() 메서드의 스펙을 읽어보았다.
+
+> Returns a reference to the entity with the given identifier. Depending on how the JPA persistence provider is implemented this is very likely to always return an instance and throw an EntityNotFoundException on first access. Some of them will reject invalid identifiers immediately.
+
+refernce 즉 , 엔티티의 참조를 반환한다고 적혀있다. 기본적으로 Hibernate에서 지연 로딩을 구현하기 위해 실제 객체가 아닌 Proxy 객체를 사용함으로써 실제 객체를 메모리에 로드하지 않아 자원을 절약한다.
+getById() 메서드는 지연 로딩을 지원하여 실제 객체가 아닌 Proxy 객체(엔티티의 참조)를 가져오며 실제 객체의 속성에 접근하는 순간 DB에 접근한다.
+
+getById() 메서드는 EntityManager.getReference 를 사용하는데 해당 메서드가 프록시 객체를 반환한다.
+
+오류 메시지를 다시 읽어보자면
+
+> could not initializa proxy - no session
+
