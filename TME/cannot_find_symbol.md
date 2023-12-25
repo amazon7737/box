@@ -1,4 +1,5 @@
 # error: cannot find symbol
+> 테스트 코드를 작성하면서 발생한 오류입니다. 다른 케이스로 인해서 발생할 수 있으니 테스트 코드 한정에서의 원인과 해결법입니다.
 > symbol: method setId(long)
 > location: variable _ of type _
 
