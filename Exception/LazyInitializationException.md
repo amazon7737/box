@@ -32,6 +32,8 @@ Session 은 영속성 컨텍스트를 관리하는 엔티티 매니저라고 생
 
 즉, 단위 테스트하는 메서드 위에 @Transactional 어노테이션을 붙이면 해당 메서드가 시작하고 끝날 때까지 같은 세션이 유지된다. Test Code 상의 경우 Rollback 처리를 진행한다.
 
+-> DAO 레이어(Sprgin Data 에서 Repository ) 상위에서 세션을 시작해 DAO 계층 밖에서도 세션이 종료되지 않도록 트랜잭션을 거는 방법이다.
+
 * findById() 사용하기
 
 즉시로딩(EAGER)을 지원하는 findById()를 사용할 수 있다.
