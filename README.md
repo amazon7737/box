@@ -8,6 +8,14 @@
 * [실전자바강의_입문](https://github.com/amazon7737/box/tree/main/Java/%EC%8B%A4%EC%A0%84_%EC%9E%90%EB%B0%94_%EA%B0%95%EC%9D%98/%EC%9E%85%EB%AC%B8)
 * [실전자바강의_기본](https://github.com/amazon7737/box/tree/main/Java/%EC%8B%A4%EC%A0%84_%EC%9E%90%EB%B0%94_%EA%B0%95%EC%9D%98/%EA%B8%B0%EB%B3%B8)
 
+* [비교연산자](https://github.com/amazon7737/box/blob/main/Java/%EB%B9%84%EA%B5%90%EC%97%B0%EC%82%B0%EC%9E%90.md)
+
+* [인스턴스화](https://github.com/amazon7737/box/blob/main/Java/%EA%B0%9D%EC%B2%B4%ED%99%94.md)
+
+* [private](https://github.com/amazon7737/box/blob/main/Java/private.md)
+
+* [Get / Set 메서드](https://github.com/amazon7737/box/blob/main/Java/Get_Set.md)
+
   
 ## Spring
 
