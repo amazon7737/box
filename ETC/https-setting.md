@@ -13,10 +13,8 @@
 
 Caddy 는 https를 붙여주는 DNS라고 한다. 오픈소스이고 무료로 사용할 수 있다.
 
+![img](https://www.google.com/imgres?q=caddy%20proxy&imgurl=https%3A%2F%2Fdqah5woojdp50.cloudfront.net%2Foriginal%2F2X%2F0%2F0dbf52c145819810e48c366a00145608e288b8f8.png&imgrefurl=https%3A%2F%2Fcaddy.community%2Ft%2Fusing-caddy-as-a-reverse-proxy-in-a-home-network%2F9427&docid=u74sO3oVV5a7BM&tbnid=tzjnzmlWPxwHvM&vet=12ahUKEwj2puXmr86GAxWIlK8BHUNZDXoQM3oECBYQAA..i&w=2344&h=1940&hcb=2&ved=2ahUKEwj2puXmr86GAxWIlK8BHUNZDXoQM3oECBYQAA)
 
-<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcaddy.community%2Ft%2Fusing-caddy-as-a-reverse-proxy-in-a-home-network%2F9427&psig=AOvVaw2touZiE6xLD6FDqn608sTx&ust=1718005816784000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCe78SEzoYDFQAAAAAdAAAAABAE" >
-
-![img](0dbf52c145819810e48c366a00145608e288b8f8.png)
 EC2 서버에 인바운드 규칙에도 22, 80, 443 을 열어주는건 무조건 해야하고
 
 EC2 서버에 https 로 접근을 시도하면 Caddy가 그걸 받아서 Reverse Proxy를 해주는 방식이다
