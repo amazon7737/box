@@ -23,9 +23,7 @@
 * [BCryptPasswordEncoder란?](https://github.com/amazon7737/box/blob/main/Spring/BCryptPasswordEncoder.md)
   
 * [Bean Validation 사용하기](https://github.com/amazon7737/box/blob/main/Spring/Bean_Validation.md)
-  
-* [빌더 패턴](https://github.com/amazon7737/box/blob/main/Spring/Builder.md)
-  
+    
 * [JwtUtil 작성](https://github.com/amazon7737/box/blob/main/Spring/JwtUtil.md)
   
 * [수정글 적용하면 create_time 에 null이 들어가는 오류중 해결한 부분](https://github.com/amazon7737/box/blob/main/Spring/prePersist.md)
@@ -51,5 +49,6 @@
 
 ## etc..
   
+* [빌더 패턴](https://github.com/amazon7737/box/blob/main/Spring/Builder.md)
 
 
