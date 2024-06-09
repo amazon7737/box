@@ -28,4 +28,34 @@ git push origin (브랜치)
 
 ```
 
+### git commit 취소하기
+push는 하지않고 commit을 변경하고 싶을 때 사용
 
+```
+git reset --soft HEAD^
+```
+
+### git push 취소하기
+
+#### 가장 최근의 commit을 취소한다.
+```
+git log
+git reset HEAD^
+```
+#### 원하는 시점으로 워킹 디렉토리를 되돌린다.
+
+```
+git reflog 또는 git log -g
+git reset HEAD@{number} 또는 git reset [commit id]
+```
+#### 되돌려진 상태에서 다시 commit 한다
+
+```
+git commit -m "message"
+```
+
+#### 원격 저장소에 강제로 push한다.
+
+```
+git push -f origin [branch name]
+```
