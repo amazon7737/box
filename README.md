@@ -47,6 +47,24 @@
 
 ## JPA
 
+* [Columndefinition](https://github.com/amazon7737/box/blob/main/JPA/ColumnDefinition.md)
+
+* [deleteById 와 delete 의 차이](https://github.com/amazon7737/box/blob/main/JPA/deleteById_vs_delete.md)
+
+* [jpa N+1 문제](https://github.com/amazon7737/box/blob/main/JPA/n%2B1.md)
+
+* [update](https://github.com/amazon7737/box/blob/main/JPA/update.md)
+
+* [영속성 컨텍스트](https://github.com/amazon7737/box/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
+
+* [자동 드랍 후 테이블 생성](https://github.com/amazon7737/box/blob/main/JPA/%EC%9E%90%EB%8F%99%ED%85%8C%EC%9D%B4%EB%B8%94%EC%83%9D%EC%84%B1.md)
+
+* [즉시로딩과 지연로딩은 언제 사용할까](https://github.com/amazon7737/box/blob/main/JPA/%EC%A6%89%EC%8B%9C%EB%A1%9C%EB%94%A9%EA%B3%BC_%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9%EC%9D%80%EC%96%B8%EC%A0%9C%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C.md)
+
+* [지연로딩 뜻](https://github.com/amazon7737/box/blob/main/JPA/%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9.md)
+
+
+
 ## Git
 
 * [git 자주 사용하는 명령어](https://github.com/amazon7737/dev-container/blob/main/Git/git-tips.md)
