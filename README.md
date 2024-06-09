@@ -119,3 +119,5 @@
 * [파이썬스럽게](https://github.com/amazon7737/box/blob/main/ETC/like_a_python.md)
 
 * [NodeJs특강](https://github.com/amazon7737/box/blob/main/ETC/nodejs%ED%8A%B9%EA%B0%95.md)
+
+* [백엔드 서버에 https 적용하기](https://github.com/amazon7737/box/blob/main/ETC/https-setting.md)
