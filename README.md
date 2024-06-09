@@ -39,6 +39,12 @@
 
 ## Exception
 
+* [LazyInitializationException](https://github.com/amazon7737/box/blob/main/Exception/LazyInitializationException.md)
+
+* [IndexOutOfBoundException](https://github.com/amazon7737/box/blob/main/Exception/IndexOutOfBoundsException.md)
+
+* [IllegalArgumentException](https://github.com/amazon7737/box/blob/main/Exception/IllegalArgumentException.md)
+
 ## JPA
 
 ## Git
