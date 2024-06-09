@@ -53,7 +53,11 @@
 
 * [IllegalArgumentException](https://github.com/amazon7737/box/blob/main/Exception/IllegalArgumentException.md)
 
+* [IOException](https://github.com/amazon7737/box/blob/main/Exception/IOException.md)
+
 ## JPA
+
+* [EntityManager](https://github.com/amazon7737/box/blob/main/JPA/EntityManager.md)
 
 * [Columndefinition](https://github.com/amazon7737/box/blob/main/JPA/ColumnDefinition.md)
 
