@@ -51,4 +51,8 @@
   
 * [빌더 패턴](https://github.com/amazon7737/box/blob/main/Spring/Builder.md)
 
+* [HTTP 상태 코드](https://github.com/amazon7737/box/blob/main/ETC/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C.md)
 
+* [파이썬스럽게](https://github.com/amazon7737/box/blob/main/ETC/like_a_python.md)
+
+* [NodeJs특강](https://github.com/amazon7737/box/blob/main/ETC/nodejs%ED%8A%B9%EA%B0%95.md)
