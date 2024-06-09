@@ -13,7 +13,8 @@
 
 Caddy 는 https를 붙여주는 DNS라고 한다. 오픈소스이고 무료로 사용할 수 있다.
 
-<img style = "width=autopx; height:600px;"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-fHCeYEC3KmQ4lpryyHc7lRRovX95m6O6E_gHlX2CS9ITZ9BEftkFpS84xJMDcTkvKQ&usqp=CAU">
+![image](https://github.com/amazon7737/box/assets/76634341/3141cc2d-cb72-43be-9ebe-5456b41aa862)
+
 
 EC2 서버에 인바운드 규칙에도 22, 80, 443 을 열어주는건 무조건 해야하고
 
