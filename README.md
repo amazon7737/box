@@ -2,8 +2,11 @@
 
 > 개발하면서 새롭게 알게된 지식을 정리하는 저장소
 > 최대한 요약해서 해당 키워드에 대해서 간단히 정리(나중에 다시 보았을때 아 이런거였지)하고 알아볼수 있게 기록하고 있습니다.
+
+## JAVA
+
   
-<h2>Spring</h2>
+## Spring
 
 * [@Column](https://github.com/amazon7737/box/blob/main/Spring/%40Column.md)
 
@@ -33,20 +36,20 @@
   
 * [보일러 플레이트란](https://github.com/amazon7737/box/blob/main/Spring/%EB%B3%B4%EC%9D%BC%EB%9F%AC%ED%94%8C%EB%A0%88%EC%9D%B4%ED%8A%B8.md)
 
-<h2>Java</h2>
+## Exception
 
-<h2>JPA</h2>
+## JPA
 
-<h2>Git</h2>
+## Git
 
 * [git 자주 사용하는 명령어](https://github.com/amazon7737/dev-container/blob/main/Git/git-tips.md)
 
-<h2>RDB</h2>
+## Relational DataBase
 
-<h2>Software Engineering </h2>
+## Software Engineering
 
 
-<h2>기타</h2>
+## etc..
   
 
 
