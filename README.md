@@ -53,6 +53,21 @@
 
 ## Relational DataBase
 
+* [데이터모델링](https://github.com/amazon7737/box/blob/main/CS/db/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%AA%A8%EB%8D%B8%EB%A7%81.md)
+
+* [데이터베이스개론을읽으며](https://github.com/amazon7737/box/blob/main/CS/db/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B0%9C%EB%A1%A0%EC%9D%84%EC%9D%BD%EC%9C%BC%EB%A9%B0.md)
+
+* [선택참여와필수참여의차이](https://github.com/amazon7737/box/blob/main/CS/db/%EC%84%A0%ED%83%9D%EC%B0%B8%EC%97%AC_%ED%95%84%EC%88%98%EC%B0%B8%EC%97%AC.md)
+
+* [식별관계와 비식별관계](https://github.com/amazon7737/box/blob/main/CS/db/%EC%8B%9D%EB%B3%84_%EB%B9%84%EC%8B%9D%EB%B3%84%EA%B4%80%EA%B3%84.md)
+
+* [식별관게는 언제 쓸까?](https://github.com/amazon7737/box/blob/main/CS/db/%EC%8B%9D%EB%B3%84%EA%B4%80%EA%B3%84%EB%8A%94%EC%96%B8%EC%A0%9C%EC%93%B8%EA%B9%8C.md)
+
+* [일대일 관계 고려사항](https://github.com/amazon7737/box/blob/main/CS/db/%EC%9D%BC%EB%8C%80%EC%9D%BC%EA%B4%80%EA%B3%84.md)
+
+* [Crow-Foot 모델](https://github.com/amazon7737/box/blob/main/CS/db/ERD1%EA%B3%BCERD2%EC%9D%98%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+
+
 ## Software Engineering
 
 
