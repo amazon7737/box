@@ -83,6 +83,8 @@
 
 ## Relational DataBase
 
+* [데이터베이스 설계 및 구축](https://github.com/amazon7737/box/tree/main/CS/db/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%80%E1%85%A8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8)
+
 * [데이터모델링](https://github.com/amazon7737/box/blob/main/CS/db/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%AA%A8%EB%8D%B8%EB%A7%81.md)
 
 * [데이터베이스개론을읽으며](https://github.com/amazon7737/box/blob/main/CS/db/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B0%9C%EB%A1%A0%EC%9D%84%EC%9D%BD%EC%9C%BC%EB%A9%B0.md)
